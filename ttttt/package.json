@@ -1,0 +1,29 @@
+{
+  "name": "apache-jira-scraper-llm",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Apache JIRA scraper for LLM dataset creation",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "jira",
+    "scraper",
+    "llm",
+    "dataset",
+    "apache"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "axios-retry": "^4.2.0",
+    "jsonlines": "^0.1.1",
+    "pino": "^9.0.0",
+    "pino-pretty": "^13.1.2"
+  }
+}
